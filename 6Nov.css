@@ -1,0 +1,16 @@
+
+*{
+    margin: 0px;
+}
+body{
+    background-color: orange;
+}
+@media screen and (max-width:600px){
+    .container{
+        height: 200px;
+        width: 100%;
+        background-size: contain;
+        background-image: url('https://cdn.pixabay.com/photo/2020/05/11/15/38/tom-5158824_1280.png');
+    }
+}
+

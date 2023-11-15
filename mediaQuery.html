@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        .mb,.tb{
+            display:none;
+        }
+
+        
+        @media screen and (max-width:600px) {
+            body{
+                background-color: orange;
+            }
+            .tb,.we{
+                display: none;
+            }
+            .mb{
+                display: block;
+            }
+
+        }
+        @media screen and (min-width:601px) and (max-width: 1000px){
+            body{
+                background-color: blue;
+            }
+            .we,.mb{
+                    display: none;
+                }
+                .tb{
+                    display: block;
+                }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="mb">mobile app</h1>
+    <h1 class="tb">tablet app</h1>
+    <h1 class="we">web app</h1>
+</body>
+</html>
